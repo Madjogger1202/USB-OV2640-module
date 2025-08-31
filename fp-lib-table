@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OV2640")(type "KiCad")(uri "${KIPRJMOD}/library/OV2640.pretty")(options "")(descr ""))
+  (lib (name "LY68L6400SLIT")(type "KiCad")(uri "${KIPRJMOD}/library/LY68L6400SLIT.pretty")(options "")(descr ""))
+)
