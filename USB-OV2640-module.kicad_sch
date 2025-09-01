@@ -364,7 +364,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J5"
+			(property "Reference" "J1"
 				(at 0.762 21.082 0)
 				(effects
 					(font
@@ -926,42 +926,6 @@
 				(pin bidirectional line
 					(at 15.24 3.81 180)
 					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -1.27 180)
-					(length 5.08)
 					(name "D+"
 						(effects
 							(font
@@ -978,7 +942,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -3.81 180)
+					(at 15.24 1.27 180)
 					(length 5.08)
 					(name "D+"
 						(effects
@@ -988,6 +952,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6822,6 +6822,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 137.16) (xy 144.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2130aa29-b09e-4b73-b6a2-ea19d79878ea")
+	)
+	(wire
+		(pts
 			(xy 120.65 124.46) (xy 113.03 124.46)
 		)
 		(stroke
@@ -6869,16 +6879,6 @@
 			(type default)
 		)
 		(uuid "2cbfd8a0-d213-484b-9e13-3935d5fea961")
-	)
-	(wire
-		(pts
-			(xy 140.97 140.97) (xy 132.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d0fb416-01d5-4f19-a0a5-c1c5da4e7395")
 	)
 	(wire
 		(pts
@@ -7142,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 140.97) (xy 151.13 142.24)
+			(xy 146.05 140.97) (xy 146.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7502,17 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 140.97) (xy 151.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f5eac88-9892-4c0b-8585-4d770a17640c")
-	)
-	(wire
-		(pts
-			(xy 140.97 140.97) (xy 140.97 142.24)
+			(xy 134.62 140.97) (xy 134.62 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7912,6 +7902,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 142.24) (xy 144.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d85df1d-eaf1-426a-9cad-7b78e03da59c")
+	)
+	(wire
+		(pts
 			(xy 134.62 180.34) (xy 139.7 180.34)
 		)
 		(stroke
@@ -8002,6 +8002,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 140.97) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa78b6c4-8d6a-40b4-b112-a1f0c594ff7b")
+	)
+	(wire
+		(pts
 			(xy 234.95 77.47) (xy 236.22 77.47)
 		)
 		(stroke
@@ -8022,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 137.16) (xy 151.13 138.43)
+			(xy 146.05 137.16) (xy 146.05 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8139,16 +8149,6 @@
 			(type default)
 		)
 		(uuid "b6542610-7323-4fb4-91b3-88d478d0c02a")
-	)
-	(wire
-		(pts
-			(xy 162.56 138.43) (xy 151.13 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7293c2d-ed2a-4cee-b58f-ced683132849")
 	)
 	(wire
 		(pts
@@ -8342,7 +8342,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 138.43) (xy 140.97 137.16)
+			(xy 134.62 138.43) (xy 134.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8722,7 +8722,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 138.43) (xy 140.97 138.43)
+			(xy 132.08 138.43) (xy 134.62 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9282,7 +9282,43 @@
 			"t6qw1RgwyV1p8au2WgRiS6RJBOlWcarIfG98pqpA0MLShBmtVmPtkaixtftc506hlbKCvx8XOoSu"
 			"kHIgbn5rRZFiq7H2kMM3B7/54RxFWpbXTHtD9UDMIlQC0iSwMJdEodXECyrUAjHTugx8aFje29dn"
 			"Y5etDZxHmjPiBj4OYAs4VdeGrAkAMEYgBgBjBGIAMEYgBgBjBGIAMEYgBgBjBGIAMEYgBgBjBGIA"
-			"MEYgBgBjBGIAMPYHUy/64VIpwlkAAAAASUVORK5CYII="
+			"MEYgBgBjBGIAMPYHUy/64VIpwlkAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -14334,7 +14370,43 @@
 			"0q8zuKT4Wjvg6mvoM930sZc4mKM8Cmm43RmfCgSyq+o3XWfDjQ+95UbsHnv872HsLLpqyxno7NUA"
 			"I7LeuwTqPUq9yOmDCleNMiKw3mb9MNgN48DydRbRY8TTZSbXdbBtKuEV4u8CxvaB7S7sgvVwzSnI"
 			"dtbJ5TGv/8WunvjOarlitPE+4zd2dmd9hXfHFaL/QlRjrxv22OMqPGvsTwm6cwAQztKcdp6OnaPi"
-			"wvj9Ebecw/o/w9ZcQbFicGsAAAAASUVORK5CYII="
+			"wvj9Ebecw/o/w9ZcQbFicGsAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAcPTwcPTzkw8SrSU1x9O8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAADjw8TIhokAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAegAc"
+			"PTwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcfTvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOTDxKtJTQAAAFW3"
+			"sxw9PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB09PAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAB09PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABw9PFW3swAAAKtJTeTDxAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -18412,7 +18484,43 @@
 			"l6a7L/VWH/8879CwuekDzLv/BQAAgEcW+xEAQknk1E17Vi/PmjVqc68E5z8lrhsJ01bnzI4xzt+O"
 			"sI9YvG3Z/okbbn10n86d+ky+XS0eW9So13d8vXAQLS0AAEAQ4f20AEKQt6GytOTvlpj+iTG8cBYA"
 			"ACCUsU8LIAQZ3WP6J8V0dRUAAADodJynBQAAAAAEK3paAAAAAECwoqcFAAAAAAQreloAAAAAQLCi"
-			"pwUAAAAABKt/ATY0yTvVKEIwAAAAAElFTkSuQmCC"
+			"pwUAAAAABKt/ATY0yTvVKEIwAAAAAElFTkSuQmCCcQBjAGEAYQBOAEsAQwBiAGQAZgA0AEIAMAAv"
+			"AHgAYgBWAGkASQAxAGMATQBjAFAAawBVADAANgAyAHUASgBLAE4AVQB2AFgARABXADEARwBQAGkA"
+			"MABXAG4AZQBFADIAWQAyAEsAUwBFAG8ARAB6AEUALwBaADcANAB1ADMAUABoAFIAVgBsAGkAdQBv"
+			"AGQAMwBtAGQAdABMAEYAcABPAEcAagBaAHgAaAAzAFIAUQBtAGoAVQBuAHEASAB0AG8AdgBFAHgA"
+			"UQBjAC8AegB5AHQASQBKADMATgBwADQAbABMAEcARABtADUAYgA3AEoAVwBaAEwAVABvAEUASQBL"
+			"AEsANAB3AGgALwBRAFQAMQBlAGoAMQBpAFAAMQBXAHUAdAA1AHgANQBKAHoASABPAHcATQBVAEcA"
+			"ZgBQAE0ASwBIADAARQBOAGIAcwB0AEsALwB0AEEAegBYAHEATQA4AFUAWABQAFgAbAA0AHMAawBx"
+			"AHEAOABYADYAZQBxADIAKwBSAEgAQQBlAG0AeQB0AGkATQA5AFAAVwBaAGwAbwB2AEgAOQBzAHIA"
+			"dgBxAC8ANgBIAG4AVQBRACsAcgBjAEsAegBYAG0AOAB4AG0AYQBmAGwAeQBIAEQAaAA5AG8AegBD"
+			"AEYAQwBaAGMAMgBqAHQAMAAyAGUAagBwAHIAZABhAHoAbwArAHAARwB1ADAAOAByAGwAagBKAEIA"
+			"KwBDAFEAMwA5ADgAbgA5AGgAbgBJAGEASwAyAEcAcQBEADUAdQBvAHAAcQA3AHIAMwBkAGMAcgB1"
+			"AHUAVwB3AFcAMwBXAGIAdQBPAGwAYgAvAGIAdABEAHoARQBjAHQAMQBHAFQAbQBDADMAbwBhAEIA"
+			"dAB0AGQATgBhADcAQQB6AHMAegBkAFkAegAyAEQARgBPAGwANABKAFUARgBoAFYAVwBTADgAZwB3"
+			"AE0AdgBtAE8ASABBAHcAUQBDADAAWQB5AGEAcQB6ADQAWAA1AHIANABtADYAQgBwAFEASAAxAHkA"
+			"NAA4AGEAQQBoAHkASQBIAFMAYQA4AEQARABtAFMAaAAxADgASAA4AEgANQBOAE0AaQBFAEEAaQBF"
+			"AE0AQgBGAFgAMQBaAGsAMQBzAGMAMQBXAHoAOQA4AEcAVwBkAHUAaQBUADcATQAzAEwAVQBuAEQA"
+			"MAB1AGEAUQBaAFEAcwBKAG0AcABMAG0AaABFAGEAZgBqAHEASQB5AGIAVwBLADcAaQBTADUASQBE"
+			"AEsAMABOADIALwAvAFkAMABQAG8AdwB0ADUASgBOAFUAWgBRAGwAQQBnAEIAZABRAFoATABDAHIA"
+			"QgBiADQAMwBkAHgATwBMAGIAeQBYADUAeAA4AEIAWABIAGYAUABMAEEAcgBNAHkAdgB3AHoAVQBk"
+			"AEsAaQBKAEUAOQBsAFEAUwBrAHoAcgA2AGoAcgBCAEMAOAAxAGMANwBRAEcAQgA0AEYAQQBJAE4A"
+			"bwBBADYAWQBoAHAASwB4AHAAOQA0AGcARQBSAHQAZQBPAHMAaABLAFIAMABCAEYAMQBZAGYAYgBE"
+			"AGEAbgBzAGMAQQBZACsAVgBYAFMAVwAxADcAcgBiAGsAZQBEAFQAOQBXAHAASgBVAEsAbABLAHAA"
+			"VQBXAGQAdwBsADYAUwBxAG8ASwBJAEcAQgBnAFQAQgBYAGMANwBsAFUAUQByADgAWABnAEoAQwBK"
+			"AFcAbwBEAEIAZwA0AEUAbABNAGgARwBTAHEAeQB2AFkAMgBJAGoAWgBIAGUAbgB1AEQAdgAzADYA"
+			"aQBUAEwAdwBjADAAagB2AEUAcgA0AE4AZABuAEIARQAyAEMAaQAvAFQAUwBDAEEAZQBpACsATgB4"
+			"AFoARgB0AG0AdQBTAHAAUwAzAFcAagBzAFcAUABuAFYAOQBkADEAaQBBAG0ATABuAEgAMwBnAGIA"
+			"WgBTAFEATwBlAFIALwBUAFcAawBsAGUAUQBEADEAegBjAHUAawBOAG4AWgBiAFIAMwBVAEoAcwAr"
+			"AGgATABKAG8ALwBMAC8AVQBsAGkAMgBzADIAYgBJAFMATQBEAEgAagA0AFUAZABnAHcAVQA1ADAA"
+			"cwBHAHYAYQB3AFMAZQA2AFEARgBLAHMASgBmAG4AOQBqAFkAZABGAGgATQAyAHgAQgBNAFgAVgA2"
+			"ADMAdwBjAGwALwBhAFgASABwAFcAagBsAGYAUwAyADQAOQBSAEQARgB0AEQAYgBjAFgAaAB1AFoA"
+			"LwBTAE0AMwA3AGsASwBLAGsATAAvAGcAdQB3AEsAbABpAEEAUQA5AEUAMwAwADcATABNAHYATwAv"
+			"ADMASQA3AEoAZgBQAFYASgBtAEUARgBGAGYAawBsAEYAdgB1AEEAYgBIAGUASgBmAFkARgBuAFYA"
+			"bQAxAFQANwB3AGgAbwBEAHIATABnAHcARQAvAFUAdABBAEoAUwBrADUAYgBMAEsASwB4AFgAMQBO"
+			"AEYARgBNAGkAMABBAGcARQBHADIAQwBkAE0AUwAwAGMAdwBIAHUAQQBBADkANABOAGEAOQB5AFoA"
+			"YgByAEsAQgBzAFUAYwBsAEwAUwBtADkAaQBRAEEANABIAFQAOQBKADgAVgBnADkAYQBEAGYAcABM"
+			"AFcAOQBBAHcARAB1AEEAdwBCAC8AZABEAFQAMgBHAGcAWgBOAC8AWgBkAFMAagBjAFEAWgBiAE4A"
+			"cwBtAHgAcwBEAFUARgBPAEwARgBUAFYAYgBlAA=="
 		)
 	)
 	(image
@@ -41711,7 +41819,43 @@
 			"sAtJGwAAAAAAAOxC0gYAAAAAAAC7kLQBAAAAAADALiRtAAAAAAAAsAtJGwAAAAAAAOxC0gYAAAAA"
 			"AAC7kLQBAAAAAADALiRtAAAAAAAAsAtJGwAAAAAAAOxC0gYAAAAAAAC7kLQBAAAAAADALiRtAAAA"
 			"AAAAsAtJGwAAAAAAAOxC0gYAAAAAAAC7kLQBAAAAAADALiRtAAAAAAAAsAtJGwAAAAAAAOxC0gYA"
-			"AAAAAAC7kLQBAAAAAADALv4veb4yQGBRqpQAAAAASUVORK5CYII="
+			"AAAAAAC7kLQBAAAAAADALv4veb4yQGBRqpQAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(global_label "GPIO15"
@@ -41868,7 +42012,7 @@
 			)
 		)
 	)
-	(global_label "USB_res-"
+	(global_label "USB_res+"
 		(shape input)
 		(at 119.38 138.43 0)
 		(fields_autoplaced yes)
@@ -41880,7 +42024,7 @@
 		)
 		(uuid "0941eb29-8bb3-4122-8171-4fb05eaed7d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2287 138.43 0)
+			(at 120.22 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41890,7 +42034,7 @@
 			)
 		)
 	)
-	(global_label "USB_con-"
+	(global_label "USB_con+"
 		(shape input)
 		(at 105.41 138.43 0)
 		(fields_autoplaced yes)
@@ -41902,7 +42046,7 @@
 		)
 		(uuid "0b5ec44a-53bd-4f94-b3fb-82de1d7643ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2674 138.43 0)
+			(at 106.2587 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41978,9 +42122,9 @@
 			)
 		)
 	)
-	(global_label "USB_filter+"
+	(global_label "USB_filter-"
 		(shape input)
-		(at 137.668 140.97 0)
+		(at 133.35 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -41990,7 +42134,7 @@
 		)
 		(uuid "1429a709-32b6-425c-9894-32347f700c62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6119 140.97 0)
+			(at 134.3025 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42022,19 +42166,19 @@
 			)
 		)
 	)
-	(global_label "USB_mcu-"
+	(global_label "USB_mcu+"
 		(shape input)
-		(at 156.21 138.43 0)
+		(at 146.05 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.127 0.127)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "15ec7721-18b9-40fb-be5a-ed6c6ddaa49c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0934 138.43 0)
+			(at 146.9247 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42154,6 +42298,28 @@
 			)
 		)
 	)
+	(global_label "USB_mcu-"
+		(shape input)
+		(at 162.56 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21db27be-2d0e-4295-bfa1-ebc80f2fb993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7275 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO18"
 		(shape input)
 		(at 161.29 135.89 180)
@@ -42244,7 +42410,7 @@
 	)
 	(global_label "Y6"
 		(shape input)
-		(at 269.24 125.73 0)
+		(at 269.24 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -42254,12 +42420,34 @@
 		)
 		(uuid "293241cd-eef8-4208-93e5-78253d06a70e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 125.73 0)
+			(at 273.6505 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIO_C"
+		(shape input)
+		(at 308.61 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a42fc4b-6082-4ff3-a54f-e3cba86de1e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.6399 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -42440,19 +42628,19 @@
 			)
 		)
 	)
-	(global_label "USB_mcu+"
+	(global_label "USB_mcu-"
 		(shape input)
-		(at 156.21 140.97 0)
+		(at 146.05 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.127 0.127)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "37a46fea-6b25-4534-95c0-4d7e6bd9f29c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0847 140.97 0)
+			(at 146.9334 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42574,7 +42762,7 @@
 	)
 	(global_label "Y3"
 		(shape input)
-		(at 269.24 118.11 0)
+		(at 269.24 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -42584,7 +42772,7 @@
 		)
 		(uuid "421b45f8-1cc8-4118-8762-85d8a78d7ab9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.5636 118.11 0)
+			(at 273.5636 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42660,7 +42848,7 @@
 			)
 		)
 	)
-	(global_label "USB_con+"
+	(global_label "USB_con-"
 		(shape input)
 		(at 105.41 140.97 0)
 		(fields_autoplaced yes)
@@ -42672,7 +42860,7 @@
 		)
 		(uuid "491874da-ca50-4ea7-84b5-86dcd837ae7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.2587 140.97 0)
+			(at 106.2674 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42772,7 +42960,7 @@
 	)
 	(global_label "Y2"
 		(shape input)
-		(at 269.24 115.57 0)
+		(at 269.24 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -42782,7 +42970,7 @@
 		)
 		(uuid "5aa0b963-994c-4718-b741-96437480610a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 115.57 0)
+			(at 273.6505 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43056,7 +43244,7 @@
 			)
 		)
 	)
-	(global_label "USB_res+"
+	(global_label "USB_res-"
 		(shape input)
 		(at 119.38 140.97 0)
 		(fields_autoplaced yes)
@@ -43068,7 +43256,7 @@
 		)
 		(uuid "6ec9f176-301b-4ce6-ae9d-3d3b9abe58b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.22 140.97 0)
+			(at 120.2287 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43210,6 +43398,28 @@
 			)
 		)
 	)
+	(global_label "SIO_D"
+		(shape input)
+		(at 308.61 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "774361fb-c2f6-405a-8471-d9a98b21be6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.553 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSYNC"
 		(shape input)
 		(at 287.02 135.89 180)
@@ -43333,28 +43543,6 @@
 		(uuid "7d65370c-3883-467c-9836-81968b5aff73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.6098 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TWI_SCK"
-		(shape input)
-		(at 308.61 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7db34608-8c46-478c-a8c1-795d449058be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.6448 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43542,7 +43730,7 @@
 	)
 	(global_label "Y4"
 		(shape input)
-		(at 269.24 120.65 0)
+		(at 269.24 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43552,7 +43740,7 @@
 		)
 		(uuid "88c3cf53-f885-4eaa-a10c-496589c9b7cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 120.65 0)
+			(at 273.6505 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43828,7 +44016,7 @@
 	)
 	(global_label "Y8"
 		(shape input)
-		(at 269.24 130.81 0)
+		(at 269.24 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -43838,7 +44026,7 @@
 		)
 		(uuid "a174f4d4-1001-411f-8ddd-b2628ba6ae17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 130.81 0)
+			(at 273.6505 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44059,28 +44247,6 @@
 		(uuid "b2cf3b7d-da45-4604-bc09-2e1978f1914c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.3962 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TWI_SDA"
-		(shape input)
-		(at 308.61 191.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2dea8a8-6a6b-4e7c-9eca-85db3af53aae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.4711 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44486,9 +44652,9 @@
 			)
 		)
 	)
-	(global_label "USB_filter-"
+	(global_label "USB_filter+"
 		(shape input)
-		(at 137.668 138.43 0)
+		(at 133.35 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44498,7 +44664,7 @@
 		)
 		(uuid "e3255c4b-b2e5-4211-929c-cb57ef1b4e7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6205 138.43 0)
+			(at 134.2939 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44510,7 +44676,7 @@
 	)
 	(global_label "Y7"
 		(shape input)
-		(at 269.24 128.27 0)
+		(at 269.24 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44520,7 +44686,7 @@
 		)
 		(uuid "e5977d87-8f96-416f-9f52-24abcbecafc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 128.27 0)
+			(at 273.6505 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44730,7 +44896,7 @@
 	)
 	(global_label "Y5"
 		(shape input)
-		(at 269.24 123.19 0)
+		(at 269.24 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44740,7 +44906,7 @@
 		)
 		(uuid "efc56d95-06c0-4e65-891a-7236c3b69d04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.5636 123.19 0)
+			(at 273.5636 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44794,9 +44960,31 @@
 			)
 		)
 	)
+	(global_label "USB_mcu+"
+		(shape input)
+		(at 162.56 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f876e969-00e9-4d99-8012-9d6a3339f21f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.8143 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Y9"
 		(shape input)
-		(at 269.24 133.35 0)
+		(at 269.24 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -44806,7 +44994,7 @@
 		)
 		(uuid "f8a6f39b-0b8a-4832-acf9-322812c02b66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.6505 133.35 0)
+			(at 273.6505 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45355,7 +45543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 323.85 88.138 90)
 			(effects
 				(font
@@ -45740,7 +45928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 297.688 187.96 90)
 			(effects
 				(font
@@ -45914,74 +46102,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 118.11 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e9187a8-099a-4086-ac03-f018727373c7")
-		(property "Reference" "R19"
-			(at 261.366 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2789c4d-f5eb-4ac1-93b9-51d12b98779e")
-		)
-		(pin "2"
-			(uuid "4e0f3c1c-be97-4567-b452-3d0b054083de")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -46336,6 +46456,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 125.73 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15832ac0-4f5b-4008-a847-ae940b2f3c39")
+		(property "Reference" "R22"
+			(at 261.366 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e85a74-cbf0-4415-8481-7be36480445a")
+		)
+		(pin "2"
+			(uuid "cf8c25a6-3592-4cce-b0e2-f42e6c7db1cc")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 167.64 86.36 0)
 		(mirror y)
@@ -46609,6 +46797,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df6b99d-ddbf-48ff-8d4c-7b54a42e3c3b")
+		(property "Reference" "R29"
+			(at 261.366 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b79cfb-a16c-4f05-9de3-d027d5a3b3de")
+		)
+		(pin "2"
+			(uuid "bb009b19-22f4-4d43-8bc6-11bcc39d390b")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 261.62 182.88 0)
 		(unit 1)
@@ -46763,7 +47019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 323.85 85.598 90)
 			(effects
 				(font
@@ -47058,7 +47314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 312.928 185.42 90)
 			(effects
 				(font
@@ -47167,6 +47423,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 118.11 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23af9892-7b67-4e4b-b0ca-e3f4eb5e1743")
+		(property "Reference" "R19"
+			(at 261.366 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b654eaa-4d77-4478-866a-07bb92c364d8")
+		)
+		(pin "2"
+			(uuid "679d0f3f-bfdf-46ac-96d2-3aeb00786a57")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 181.61 191.77 0)
 		(unit 1)
@@ -47228,74 +47552,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 160.02 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "240cc103-9a3c-4292-a947-a55378266726")
-		(property "Reference" "R33"
-			(at 261.366 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8418bf2b-65db-4f9f-bca2-4683c211d369")
-		)
-		(pin "2"
-			(uuid "c3c28165-b595-42e8-acba-5f5ce71f99fc")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -47565,74 +47821,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 165.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f36f1ac-68f8-47da-8101-633e075eb464")
-		(property "Reference" "R35"
-			(at 261.366 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e3cf217-38af-405e-8d9f-52834925fada")
-		)
-		(pin "2"
-			(uuid "08778107-96c2-4543-8ce5-c205c843dea9")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -48206,7 +48394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 239.268 186.69 90)
 			(effects
 				(font
@@ -48403,142 +48591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d7c7309-3cd9-4f1a-bd13-dbc1414d2b40")
-		(property "Reference" "R21"
-			(at 261.366 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cff2979-6838-4ee8-bd8b-59431765abdb")
-		)
-		(pin "2"
-			(uuid "f9732b10-5ac1-4f33-a8e0-512fe4b94f0a")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 139.7 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40200bbd-454d-4a2f-97df-9696223b1893")
-		(property "Reference" "R27"
-			(at 261.366 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56c55279-e6a5-4ed7-abc7-b3bfd5cea6d0")
-		)
-		(pin "2"
-			(uuid "91876893-27f7-4872-8d69-4b48d67f6d65")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 127 146.05 0)
 		(mirror y)
@@ -48607,6 +48659,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f2cf38-c546-46b3-b560-e1a10d407223")
+		(property "Reference" "R21"
+			(at 261.366 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cccd2d25-d6e4-4e2e-b9c5-6a6e108df8d4")
+		)
+		(pin "2"
+			(uuid "f8044981-a75f-4d86-88ae-00088837bb7e")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 328.93 121.92 270)
 		(unit 1)
@@ -48666,6 +48786,74 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41e23697-7c64-4549-b229-157a010c70a1")
+		(property "Reference" "R20"
+			(at 261.366 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1694e4-383b-49ca-a4d0-84cd1f26ed93")
+		)
+		(pin "2"
+			(uuid "306df950-2e0c-4f00-be81-b4df5836e640")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -48946,6 +49134,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 130.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c5ad5a-cdcc-49a7-904d-c451606b3086")
+		(property "Reference" "R24"
+			(at 261.366 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65daea14-438d-4da1-97e5-628bda59af46")
+		)
+		(pin "2"
+			(uuid "f1aba98f-b121-484e-b9bf-4332a09491d6")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 110.49 195.58 0)
 		(unit 1)
@@ -49104,7 +49360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 91.948 90)
 			(effects
 				(font
@@ -49210,74 +49466,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5035fc15-d6e1-4d22-ba86-9c458cab71f0")
-		(property "Reference" "R18"
-			(at 261.366 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1de7804-43a0-44fc-bb5e-f09cad1937f7")
-		)
-		(pin "2"
-			(uuid "b20f64e1-1f4f-4bfb-8031-33dd8e66a2f5")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -49411,74 +49599,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 142.24 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51c5e003-a57c-4570-95e5-9fe1df927ada")
-		(property "Reference" "R28"
-			(at 261.366 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db54a051-7726-4c7c-bdae-4f7e271964d0")
-		)
-		(pin "2"
-			(uuid "a7349370-bf2a-41bb-a0f5-6a801991ad61")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -49827,10 +49947,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ccf026f-5412-4681-bfa5-70a4cfc04bba")
 		(property "Reference" "U3"
-			(at 187.5065 163.83 0)
+			(at 195.58 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49839,7 +49958,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3"
-			(at 187.5065 166.37 0)
+			(at 195.072 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50121,6 +50240,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 133.35 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e797744-6b64-44cf-9012-3664f33d85b4")
+		(property "Reference" "R25"
+			(at 261.366 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04dfb423-290a-4f8b-b6e4-bb3c47f47228")
+		)
+		(pin "2"
+			(uuid "69dd4aa2-69b4-4032-82d9-8a5e48c24c86")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V8")
 		(at 210.82 72.39 0)
 		(mirror y)
@@ -50323,6 +50510,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64dfb255-20bb-4e58-a854-0e009674470c")
+		(property "Reference" "R32"
+			(at 261.366 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd892f4e-0eb2-4d3f-88b7-c1bf958db592")
+		)
+		(pin "2"
+			(uuid "11bccc3e-f08d-41cf-bf30-b7afa74336d3")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 85.09 85.09 90)
 		(unit 1)
@@ -50457,6 +50712,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a316bce-9387-4f91-beef-ac45a115093e")
+		(property "Reference" "R33"
+			(at 261.366 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b9dc6b-2005-4754-9a9c-d4e6ae87dc9e")
+		)
+		(pin "2"
+			(uuid "2f08eb22-ac68-45a2-94e6-24d105a3ce46")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 85.09 80.01 90)
 		(unit 1)
@@ -50516,74 +50839,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 144.78 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6affaecf-bf0d-42ff-b36e-a19cc3900d55")
-		(property "Reference" "R29"
-			(at 261.366 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 146.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a688a336-df6c-413e-8683-34dbd1dd097e")
-		)
-		(pin "2"
-			(uuid "5df1533e-94f4-4d28-8fee-59b859576e9b")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -50798,74 +51053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 133.35 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7611ddc3-c13d-4071-834a-fd13256e6502")
-		(property "Reference" "R25"
-			(at 261.366 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47a5928e-c722-4cf1-b309-40db5d2817d4")
-		)
-		(pin "2"
-			(uuid "c7116d0c-6bc2-4f66-a23f-cfb6f93557d9")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 342.9 138.43 0)
 		(unit 1)
@@ -51068,6 +51255,74 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 148.59 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b621ae3-0fd8-40a0-9cbb-e66056aec133")
+		(property "Reference" "R30"
+			(at 261.366 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 150.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3af375e-417b-469b-a918-a220226a39c8")
+		)
+		(pin "2"
+			(uuid "36964938-e40a-48ba-8afe-e8ebafea0011")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -51516,7 +51771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 114.3 142.748 90)
 			(effects
 				(font
@@ -51783,7 +52038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 89.408 90)
 			(effects
 				(font
@@ -51887,6 +52142,74 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 165.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c08a20a-f383-4e3f-830c-bfcfa6e74566")
+		(property "Reference" "R35"
+			(at 261.366 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e2c3199-5cb6-4b1f-ab33-5658dd24b5cb")
+		)
+		(pin "2"
+			(uuid "df00538c-8abd-48ee-8678-9110ca746e45")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -52098,74 +52421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 162.56 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9177c34b-d9c4-4388-8856-c5eaafdf7fa3")
-		(property "Reference" "R34"
-			(at 261.366 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 161.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfdb4497-ed8b-43d5-9fab-b1f88c23905d")
-		)
-		(pin "2"
-			(uuid "814997b5-0de3-412a-9968-77e34fa59d5e")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 247.65 191.77 90)
 		(unit 1)
@@ -52227,6 +52482,74 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 162.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95bf027b-ffe5-4285-8499-54b8266b1648")
+		(property "Reference" "R34"
+			(at 261.366 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79362804-e189-4685-a429-cfa8cfbe3b2a")
+		)
+		(pin "2"
+			(uuid "8b9681b9-68a8-4cfa-a604-77d06500a611")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -52598,7 +52921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 114.3 140.208 90)
 			(effects
 				(font
@@ -52839,16 +53162,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 137.16 270)
+		(at 265.43 142.24 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a429dea4-1a9c-4039-9d55-6e3aa5d6d596")
-		(property "Reference" "R26"
-			(at 261.366 136.398 90)
+		(uuid "a6cbe8a9-ad17-4221-afe9-3d6a9411f871")
+		(property "Reference" "R28"
+			(at 261.366 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52856,15 +53179,15 @@
 			)
 		)
 		(property "Value" "0"
-			(at 268.732 136.398 90)
+			(at 268.732 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 138.938 90)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52873,7 +53196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 137.16 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52882,7 +53205,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 265.43 137.16 0)
+			(at 265.43 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52891,151 +53214,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f04bc05-34d7-499b-bb0f-fdcd46018f69")
+			(uuid "8fbc96c0-6ad9-4db2-9b3a-16f7995c20c1")
 		)
 		(pin "2"
-			(uuid "9620878f-4af3-48c6-8387-4721520619d3")
+			(uuid "f01af0a4-4b8d-4e9f-9a54-26d1b883b829")
 		)
 		(instances
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 120.65 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6649e88-a796-4c10-ba57-99d03d6360bb")
-		(property "Reference" "R20"
-			(at 261.366 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a08c154-8a8e-4977-9725-44fbc4c90a0b")
-		)
-		(pin "2"
-			(uuid "efdf0c3b-dae6-4ebb-a192-1335596c949e")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 148.59 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a67e3f9a-704c-4a01-ad70-f5efbfb86a22")
-		(property "Reference" "R30"
-			(at 261.366 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 150.368 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0db4793-da18-4874-ae7c-e3ba716cd89a")
-		)
-		(pin "2"
-			(uuid "d8dabe09-5d28-49b1-943c-08c98f70359a")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -53067,7 +53254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 84.328 90)
 			(effects
 				(font
@@ -53486,7 +53673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 328.6252 191.77 0)
 			(effects
 				(font
@@ -53523,74 +53710,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 128.27 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeef0c3f-3068-485a-8480-2b013132d21d")
-		(property "Reference" "R23"
-			(at 261.366 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e0366cb-c6f8-49dd-9b07-b1a6b7edaf39")
-		)
-		(pin "2"
-			(uuid "d3482f7a-a274-47d0-ab16-3a1761f401dc")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -53927,6 +54046,74 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 137.16 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3645058-fd63-470b-957f-f8cafc5dc930")
+		(property "Reference" "R26"
+			(at 261.366 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9050a763-95d0-4f15-b51d-5af33b56ea1d")
+		)
+		(pin "2"
+			(uuid "b52a2751-a9e1-4cdc-b600-f1ab66913997")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -54274,6 +54461,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 128.27 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0613047-8af6-4d44-ae7f-df0b37445ee2")
+		(property "Reference" "R23"
+			(at 261.366 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b18e9a3-a259-4998-81aa-48c3675ffd81")
+		)
+		(pin "2"
+			(uuid "6b769bf1-8faa-4a79-9865-55f8f73a0562")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 85.09 100.33 90)
 		(unit 1)
@@ -54542,74 +54797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 125.73 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c24bd2bf-6db6-46de-a1bb-9b5c6799a203")
-		(property "Reference" "R22"
-			(at 261.366 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 124.968 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 127.508 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c011c824-6de9-48c5-b55e-e5bc4a9cb17a")
-		)
-		(pin "2"
-			(uuid "2be325f2-494e-42b6-8c6e-efd81a6b9793")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 80.01 195.58 0)
 		(unit 1)
@@ -54702,7 +54889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 86.868 90)
 			(effects
 				(font
@@ -54771,7 +54958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 319.278 185.42 90)
 			(effects
 				(font
@@ -54908,7 +55095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 323.85 83.058 90)
 			(effects
 				(font
@@ -55218,6 +55405,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cba91ce1-2f0c-400d-b2a4-17e362552449")
+		(property "Reference" "R18"
+			(at 261.366 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd145fe0-dc0d-4535-881e-ab8169ea0f34")
+		)
+		(pin "2"
+			(uuid "475614e4-7746-44e1-b82c-eca2a9661ea0")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 187.96 0)
 		(unit 1)
@@ -55490,142 +55745,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 130.81 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2728f3c-5963-4621-9ee3-4d9f5bdefb9c")
-		(property "Reference" "R24"
-			(at 261.366 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 132.588 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12f48e5b-c82a-4b07-9ac1-a07598832d96")
-		)
-		(pin "2"
-			(uuid "7fce3ef4-28ed-419a-a5df-dad81f0af9ab")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 152.4 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d339fb5a-c171-4e18-8160-ef899dddf425")
-		(property "Reference" "R31"
-			(at 261.366 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d65bd3fb-d7bc-4655-8be4-c831c3a44413")
-		)
-		(pin "2"
-			(uuid "8702a424-055e-4226-992f-2b799c99b53b")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 261.62 186.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -55651,7 +55770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 263.398 186.69 90)
 			(effects
 				(font
@@ -55719,7 +55838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 214.63 145.288 90)
 			(effects
 				(font
@@ -55787,7 +55906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 275.59 83.058 90)
 			(effects
 				(font
@@ -55855,7 +55974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 106.68 133.858 90)
 			(effects
 				(font
@@ -56123,7 +56242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 79.248 90)
 			(effects
 				(font
@@ -56191,7 +56310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 231.14 81.788 90)
 			(effects
 				(font
@@ -56228,74 +56347,6 @@
 			(project "USB-OV2640-module"
 				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 154.94 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dcdb66e7-8ba5-494a-88e7-c97970b2f3b9")
-		(property "Reference" "R32"
-			(at 261.366 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 268.732 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
-			(at 265.43 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b94bf30b-5192-442e-a366-30af83aede0d")
-		)
-		(pin "2"
-			(uuid "c4007e4f-81e3-4186-a7bb-3356b516bd16")
-		)
-		(instances
-			(project "USB-OV2640-module"
-				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -56462,7 +56513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 275.59 85.598 90)
 			(effects
 				(font
@@ -56792,7 +56843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 275.59 80.518 90)
 			(effects
 				(font
@@ -57476,6 +57527,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaa5552b-6854-4ea8-b44e-b18057246b6d")
+		(property "Reference" "R31"
+			(at 261.366 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 268.732 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2952997-abf4-4ce6-badb-186c5bf197f7")
+		)
+		(pin "2"
+			(uuid "f30cd544-d93b-470d-8abd-fcab3716a4b9")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 295.91 191.77 0)
 		(unit 1)
@@ -57568,7 +57687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 106.68 131.318 90)
 			(effects
 				(font
@@ -57678,33 +57797,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Filter_EMI_CommonMode")
-		(at 146.05 139.7 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 265.43 139.7 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f3a2a996-4236-42a9-989f-db3908b22a93")
-		(property "Reference" "FL1"
-			(at 146.05 136.652 0)
+		(uuid "f19b40a3-8081-47f0-89fb-40f7b4291eb1")
+		(property "Reference" "R27"
+			(at 261.366 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DLW21SZ900HQ2L"
-			(at 146.304 143.256 0)
+		(property "Value" "0"
+			(at 268.732 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 146.05 138.684 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 265.43 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57713,7 +57832,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 138.684 0)
+			(at 265.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2fd7db8-d246-4a9c-b3c2-a641f1fc7070")
+		)
+		(pin "2"
+			(uuid "f3366d1b-c5b1-4b33-9580-0537c49bde05")
+		)
+		(instances
+			(project "USB-OV2640-module"
+				(path "/03017004-cf68-4186-b0fd-7dccaa0ce9de"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Filter_EMI_CommonMode")
+		(at 139.7 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3a2a996-4236-42a9-989f-db3908b22a93")
+		(property "Reference" "FL1"
+			(at 139.7 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DLW21SZ900HQ2L"
+			(at 139.954 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
+			(at 139.7 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57722,7 +57909,7 @@
 			)
 		)
 		(property "Description" "EMI 2-inductor common mode filter"
-			(at 146.05 139.7 0)
+			(at 139.7 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57777,7 +57964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_01005_0402Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 120.65 161.798 90)
 			(effects
 				(font
