@@ -27,7 +27,7 @@
 >  - BOOT and RESET buttons  
 >  - UART broken out for flashing/debug  
 >  - Extra GPIOs exposed (see table below)  
->  - JTAG pads (MTCK, MTDO, MTDI, MTMS)  ы
+>  - JTAG pads (MTCK, MTDO, MTDI, MTMS) 
 
 ---
 
